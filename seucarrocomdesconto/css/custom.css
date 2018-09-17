@@ -1,0 +1,394 @@
+/* Sections
+
+?????????????????????????????????????????????????? */
+
+.section {
+
+  padding: 9rem 0 7rem;
+
+  text-align: center;
+
+}
+
+.escritorios {
+
+  background-image: url('../images/banner-car.jpg');
+
+  background-size: cover;
+
+  color: #fff;
+
+  padding-bottom: 5rem;
+
+}
+
+.principal {
+    background-image: url('../images/banner-despnet.png');
+
+    background-size: cover;
+    padding: 9rem 0 7rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5rem;
+  
+  }
+
+.michael {
+
+    background-image: url('../images/banner-office.jpg');
+
+    background-size: cover;
+
+    color: #fff;
+
+    padding-bottom: 5rem;
+
+    padding-top: 6rem;
+
+    text-align: center;
+
+  }
+
+.description {
+
+  opacity: .8;
+
+  font-weight: 300;
+
+}
+
+.description2 {
+
+    opacity: .8;
+
+    font-weight: 300;
+
+    text-align: justify;
+
+  }
+
+.section-slider {
+
+    padding: 1rem 0 5rem;
+
+    text-align: center;
+
+}
+
+.section-quemtemdireito {
+
+    padding: 0;
+
+    margin: 0;
+
+    text-align: center;
+
+}
+
+.section-form1 {
+
+    padding-top: 9rem;
+
+    padding-bottom: 0;
+
+    margin-bottom: 0;
+
+    text-align: center;
+
+}
+
+.section-patologias {
+
+    padding-top: 9rem;
+
+    text-align: center;
+
+}
+
+.direito {
+
+    padding-bottom: 50px;
+
+}
+
+.icon {
+
+    padding-bottom: 40px;
+
+}
+
+.quadro_1{
+
+    background-color: #2D5C88; 
+
+    width: 100%; 
+
+    padding-top: 7px; 
+
+    padding-bottom: 7px; 
+
+    text-align: center; 
+
+    position:relative;
+
+}
+
+.quadro_2{
+
+    background-color: #4187c9; 
+
+    width: 100%; 
+
+    padding-top: 7px; 
+
+    padding-bottom: 7px; 
+
+    text-align: center; 
+
+    position:relative;
+
+}
+
+.texto{
+
+    color: white;
+
+    font-family: Tahoma;
+
+    font-weight: 400;
+
+}
+
+.p-gray {
+
+    color: #626262;
+
+}
+
+.menu {
+
+    background-color: #2D5C88;
+
+}
+
+.item-menu {
+
+    color: white;
+    margin-bottom: 0;
+
+}
+
+.footer {
+
+    background-color: #2d5c88;
+
+    padding-top: 40px;
+
+    padding-bottom: 30px;
+
+    text-align: center;
+
+}
+
+/* Categories
+
+?????????????????????????????????????????????????? */
+
+.categories {
+
+  background-image: url('../images/banner-car.jpg');
+
+  background-size: cover;
+
+  color: #fff;
+
+}
+
+.categories .section-description { 
+
+  margin-bottom: 4rem;
+
+}
+
+.titulo-h1 {
+
+    font-weight: 600;
+
+}
+
+.titulo-h3 {
+
+    padding-top: 2rem;
+
+    font-weight: 400;
+
+}
+
+.instrucoes {
+
+    text-align: justify;
+
+}
+
+#img-michael {
+    border-radius: 50%;
+}
+/* Bigger than 550 */
+
+@media (min-width: 550px) {
+
+  .section {
+
+    padding: 12rem 0 11rem;
+
+  }
+
+  .titulo {
+
+    padding-bottom: 12rem;
+
+    text-align: left;
+
+    height: 165px;
+
+  }
+
+  .titulo-h1 {
+
+      font-weight: 500;
+
+  }
+
+  .titulo-h3 {
+
+    font-weight: 400;
+
+  }
+
+  .titulo-heading {
+
+    font-size: 2.4rem;
+
+  }
+
+}
+
+
+
+/* Bigger than 750 */
+
+@media (min-width: 750px) {
+
+  .titulo {
+
+    height: 190px;
+
+  }
+
+  .titulo-h1 {
+
+    font-weight: 600;
+
+  }
+
+  .titulo-h3 {
+
+    font-weight: 400;
+
+  }
+
+  .titulo-heading {
+
+    font-size: 2.6rem;
+
+  }
+
+  .section {
+
+    padding: 14rem 0 15rem;
+
+  }
+
+  .titulo {
+
+    padding: 16rem 0 14rem;
+
+  }
+
+  .section-description {
+
+    max-width: 60%;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+  }
+
+}
+
+
+
+/* Bigger than 1000 */
+
+@media (min-width: 1000px) {
+
+  .section {
+
+    padding: 10rem 0 10rem;
+
+  }
+
+  .titulo {
+
+    padding: 10rem 0;
+
+  }
+
+  .titulo-h1 {
+
+    font-weight: 600;
+
+  }
+
+  .titulo-h3 {
+
+    font-weight: 400;
+
+  }
+
+  .titulo-heading {
+
+    font-size: 3.0rem;
+
+  }
+
+  #titulo-form1 {
+
+    padding-top: 40px; 
+
+    padding-bottom: 30px;
+
+  }
+
+  #anchor-form1 {
+
+      display: none;
+
+  }
+
+  #descricao-form1 {
+
+      padding-bottom: 50px; 
+
+  }
+
+  .instrucoes li {
+
+      margin-top: 45px;
+
+      margin-bottom: 45px;
+
+  }
+
+}
